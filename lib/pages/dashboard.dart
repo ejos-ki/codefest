@@ -16,6 +16,7 @@ class _DashboardPageState extends State<DashboardPage> {
       backgroundColor: Colors.blueGrey[50],
       body: SafeArea(
         child: Stack(
+          
           children: [
             SingleChildScrollView(
             child: Column(children: [
@@ -26,16 +27,15 @@ class _DashboardPageState extends State<DashboardPage> {
           ),
 
           Positioned (
-            top: 30,
+            top: 80,
             left: 10,
-            bottom: 0,
-            width: 50,
+            bottom: -10,
+            width: 350,
             child: Container( 
               color: Colors.blue,
               width: 50,
               height: double.infinity,
               child: Column (
-                    
               )
             )
           ),
